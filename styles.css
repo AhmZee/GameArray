@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(6, 4, 10);
+}
+
+.game-img-con {
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  row-gap: 6%;
+  column-gap: 2%;
+  margin: auto;
+  margin-top: 10%;
+  
+}
+  
+.game-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
